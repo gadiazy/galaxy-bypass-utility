@@ -1,17 +1,17 @@
 # Galaxy Bypass Utility 🚀
 
-A pair of simple yet powerful Windows batch scripts to take control of your Samsung Galaxy's gaming performance by managing the Game Optimization Service (GOS) and enabling the Power Bypass feature.
+A powerful Windows batch tool with an interactive menu to take control of your Samsung Galaxy's gaming performance by managing the Game Optimization Service (GOS) and enabling the Power Bypass feature.
 
 ## ✨ Features
 
-These scripts provide a one-click solution to:
+The Galaxy Bypass Utility provides an easy-to-use interactive menu with two main options:
 
-- **`Disable_GOS.bat`**: Unleash maximum performance for gaming sessions.
+- **🚀 Enable Power Bypass & Disable GOS**: Unleash maximum performance for gaming sessions
   - ✅ Enables system-wide Power Bypass
   - ❌ Disables the Game Optimization Service (GOS)
   - ❌ Disables Game Launcher & Game Tools
 
-- **`Enable_GOS.bat`**: Restore your device to its default factory settings.
+- **🔄 Disable Power Bypass & Restore Defaults**: Return your device to factory settings  
   - ❌ Disables Power Bypass
   - ✅ Re-enables GOS, Game Launcher, & Game Tools
 
@@ -50,22 +50,30 @@ Before you begin, ensure you have the following:
 
 ## 🚀 Usage
 
-With setup complete, simply double-click the script you want to run:
+With setup complete, simply:
 
-- **For Peak Performance**: Run `Disable_GOS.bat`
-- **To Return to Stock**: Run `Enable_GOS.bat`
+1. **Double-click `Battery Bypass Tool.bat`** to launch the interactive menu
+2. **Choose your option**:
+   - **Option 1**: Enable Power Bypass & Disable GOS (for peak gaming performance)
+   - **Option 2**: Disable Power Bypass & Restore Defaults (return to stock settings)  
+   - **Option 3**: Exit the tool
+3. **Follow the on-screen prompts** - the tool will wait for your device and guide you through each step
 
-Follow the on-screen prompts, and you're all set!
+The tool includes:
+- ✅ **ADB device detection** - automatically waits for your phone to be connected
+- ✅ **Progress indicators** - shows you exactly what's happening at each step  
+- ✅ **Interactive menu** - easy navigation between options
+- ✅ **Safe operation** - all changes are completely reversible
 
-## 📋 What Each Script Does
+## 📋 What The Tool Does
 
-### Disable_GOS.bat
+### Enable Power Bypass & Disable GOS (Option 1)
 - Enables Power Bypass feature (`pass_through = 1`)
 - Disables Game Tools (`com.samsung.android.game.gametools`)
 - Disables Game Home (`com.samsung.android.game.gamehome`)  
 - Disables Game Optimization Service (`com.samsung.android.game.gos`)
 
-### Enable_GOS.bat
+### Disable Power Bypass & Restore Defaults (Option 2)
 - Disables Power Bypass feature (`pass_through = 0`)
 - Re-enables Game Tools
 - Re-enables Game Home
@@ -101,7 +109,9 @@ These scripts are designed for modern Samsung Galaxy devices that support:
 
 ## 🔄 Reverting Changes
 
-You can always revert to default settings by running the appropriate script or manually through your device's Game Launcher settings.
+You can always revert to default settings by:
+- Running the tool again and selecting **Option 2** (Disable Power Bypass & Restore Defaults)
+- Or manually through your device's Game Launcher settings
 
 ## ⚠️ Disclaimer
 
