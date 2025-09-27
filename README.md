@@ -57,13 +57,38 @@
 
 ## 📚 Documentation
 
-| Topic | Description |
-|-------|-------------|
-| **[📖 Wiki Home](https://github.com/MNDL-27/galaxy-bypass-utility/wiki)** | Complete documentation hub |
-| **[🚀 Quick Start](https://github.com/MNDL-27/galaxy-bypass-utility/wiki/Quick-Start-Guide)** | Get started in 5 minutes |
-| **[❓ FAQ](https://github.com/MNDL-27/galaxy-bypass-utility/wiki/FAQ)** | Common questions & answers |
-| **[🔧 Troubleshooting](https://github.com/MNDL-27/galaxy-bypass-utility/wiki/Troubleshooting)** | Fix common issues |
-| **[📱 Device Support](https://github.com/MNDL-27/galaxy-bypass-utility/wiki/Device-Compatibility)** | Supported Samsung models |
+<div align="center">
+
+### 🗂️ **Complete Documentation Hub**
+
+</div>
+
+<table>
+<tr>
+<td width="50%">
+
+**🏠 Getting Started**
+- **[📖 Wiki Home](https://github.com/MNDL-27/galaxy-bypass-utility/wiki)** - Documentation overview
+- **[🚀 Quick Start Guide](https://github.com/MNDL-27/galaxy-bypass-utility/wiki/Quick-Start-Guide)** - Setup in 5 minutes
+- **[📱 Device Compatibility](https://github.com/MNDL-27/galaxy-bypass-utility/wiki/Device-Compatibility)** - Supported models
+
+</td>
+<td width="50%">
+
+**🛠️ Support & Help**
+- **[❓ FAQ](https://github.com/MNDL-27/galaxy-bypass-utility/wiki/FAQ)** - Common questions
+- **[🔧 Troubleshooting](https://github.com/MNDL-27/galaxy-bypass-utility/wiki/Troubleshooting)** - Fix issues
+- **[� Report Issues](https://github.com/MNDL-27/galaxy-bypass-utility/issues)** - Get help
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+**[📚 Browse All Documentation →](https://github.com/MNDL-27/galaxy-bypass-utility/wiki)**
+
+</div>
 
 ## ⚠️ Important Notes
 
