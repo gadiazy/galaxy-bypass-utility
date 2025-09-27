@@ -5,11 +5,13 @@
 # github: [MNDL-27]
 
 # Custom funding options
-custom: ['https://protik.eu.org', 'https://ko-fi.com/protik', 'https://buymeacoffee.com/protik']
+custom: ['https://protik.eu.org']
 
 # Additional platform examples (uncomment and customize as needed)
 # patreon: protik
 # open_collective: protik
+# ko_fi: protik
+# buy_me_a_coffee: protik
 # tidelift: pypi/galaxy-bypass-utility
 # community_bridge: galaxy-bypass-utility
 # liberapay: protik
