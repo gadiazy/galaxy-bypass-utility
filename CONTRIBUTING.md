@@ -43,10 +43,11 @@ Thank you for your interest in contributing to Galaxy Bypass Utility! We welcome
 - **Safety first**: Ensure all changes are reversible
 
 ### Testing Requirements
-- Test on multiple Samsung Galaxy models if possible
+- Test on Samsung Galaxy S series devices (S20+) if possible
 - Verify both enable and disable functions work
 - Check error handling with disconnected devices
-- Ensure compatibility with different Android versions
+- Ensure compatibility with different Android versions on supported devices
+- **Note**: Focus testing on S series as A/M series typically lack GOS support
 
 ## 📋 Development Setup
 

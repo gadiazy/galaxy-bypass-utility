@@ -23,9 +23,10 @@ assignees: 'MNDL-27'
 **A clear and concise description of what actually happened.**
 
 ## 📱 Device Information
-- **Samsung Model**: (e.g., Galaxy S23 Ultra, Note 20, etc.)
+- **Samsung Model**: (e.g., Galaxy S23 Ultra, S22+, S21, Note 20 Ultra, etc.)
 - **Android Version**: (e.g., Android 13, One UI 5.1)
 - **Windows Version**: (e.g., Windows 11, Windows 10)
+- **Device Series**: S-series / Note-series / Z-series / Other (A/M series not officially supported)
 
 ## 💻 Galaxy Bypass Utility Information
 - **Version**: (e.g., v2.0.0)
@@ -44,6 +45,7 @@ assignees: 'MNDL-27'
 ## ✅ Checklist
 - [ ] I have USB debugging enabled
 - [ ] I have authorized my PC for USB debugging
-- [ ] I am using a Samsung Galaxy device
+- [ ] I am using a Samsung Galaxy S-series, Note-series, or Z-series device
+- [ ] I have confirmed my device has Game Launcher in Settings
 - [ ] I have tried restarting both my phone and PC
 - [ ] I have checked the troubleshooting section in the README

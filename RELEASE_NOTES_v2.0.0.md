@@ -56,10 +56,14 @@ galaxy-bypass-utility/
 
 ## 📱 Compatibility
 
-- **Samsung Galaxy Devices**: Modern devices with GOS support
+- **Samsung Galaxy S Series**: S20, S21, S22, S23, S24 (all variants)
+- **Galaxy Note Series**: Note 20, Note 20 Ultra  
+- **Galaxy Z Series**: Z Fold/Flip with GOS support
 - **Operating System**: Windows 10/11
 - **Requirements**: USB debugging enabled, USB cable
 - **Charger**: 20W+ USB-PD for Power Bypass feature
+
+**Note**: Galaxy A and M series are generally not supported due to lack of GOS.
 
 ## 🔧 Technical Details
 

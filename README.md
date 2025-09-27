@@ -68,7 +68,7 @@ An official feature that allows the phone to draw power directly from a connecte
 Before you begin, ensure you have the following:
 
 - **✅ ADB Platform Tools**: **INCLUDED!** No separate download needed
-- **📱 A Samsung Galaxy Device**: These scripts are designed for modern Samsung phones  
+- **📱 Samsung Galaxy S Series Device**: S20, S21, S22, S23, S24 series (other models may not be supported)
 - **🔌 A USB Cable**: To connect your phone to your PC
 
 ## ⚙️ Setup & Installation Guide
@@ -145,10 +145,22 @@ galaxy-bypass-utility/
 
 ## 📱 Compatibility
 
-These scripts are designed for modern Samsung Galaxy devices that support:
-- Game Optimization Service (GOS)
-- Power Bypass functionality
+**Confirmed Working:**
+- **Galaxy S Series**: S20, S21, S22, S23, S24 (all variants: base, Plus, Ultra)
+- **Galaxy Note Series**: Note 20, Note 20 Ultra (discontinued but supported)
+- **Galaxy Z Series**: Z Fold/Flip series with GOS support
+
+**Requirements:**
+- Game Optimization Service (GOS) support
+- Power Bypass functionality  
 - ADB connectivity
+- Android 10+ (recommended)
+
+**⚠️ Not Supported:**
+- Galaxy A series (most models lack GOS)
+- Galaxy M series
+- Older devices (pre-2020)
+- Non-Samsung devices
 
 ## ⚠️ Important Notes
 
@@ -183,13 +195,21 @@ No, Power Bypass only works with **wired USB-PD charging (20W+)**. Wireless char
 <details>
 <summary><strong>📱 Which Samsung devices are supported?</strong></summary>
 
-Most modern Samsung Galaxy devices with GOS (Game Optimization Service) support:
-- Galaxy S series (S20 and newer)  
-- Galaxy Note series (Note 20 and newer)
-- Galaxy Z series (Fold/Flip with GOS)
-- Some Galaxy A series (with GOS)
+**Confirmed Working:**
+- **Galaxy S20 series** (S20, S20+, S20 Ultra)
+- **Galaxy S21 series** (S21, S21+, S21 Ultra)  
+- **Galaxy S22 series** (S22, S22+, S22 Ultra)
+- **Galaxy S23 series** (S23, S23+, S23 Ultra)
+- **Galaxy S24 series** (S24, S24+, S24 Ultra)
+- **Galaxy Note 20** and **Note 20 Ultra**
+- **Galaxy Z Fold/Flip** series (with GOS)
 
-Check if your device has Game Launcher in settings to confirm GOS support.
+**Not Supported:**
+- Galaxy A series (lacks GOS on most models)
+- Galaxy M series  
+- Older devices (pre-2020)
+
+To check compatibility: Go to Settings > Advanced features > Game Launcher. If it exists, your device likely supports this tool.
 </details>
 
 <details>
