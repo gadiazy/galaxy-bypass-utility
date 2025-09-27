@@ -1,0 +1,73 @@
+name: Create Release Package
+
+on:
+  push:
+    tags:
+      - 'v*'  # Trigger on version tags like v2.0.1, v2.1.0, etc.
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Create release package
+      run: |
+        # Create a clean directory for the release
+        mkdir -p galaxy-bypass-utility-release
+        
+        # Copy essential files (exclude git and development files)
+        cp "Battery Bypass Tool.bat" galaxy-bypass-utility-release/
+        cp README.md galaxy-bypass-utility-release/
+        cp LICENSE galaxy-bypass-utility-release/
+        cp CONTRIBUTING.md galaxy-bypass-utility-release/
+        cp SECURITY.md galaxy-bypass-utility-release/
+        cp ADB_SETUP.md galaxy-bypass-utility-release/
+        cp -r adb/ galaxy-bypass-utility-release/
+        
+        # Create release zip
+        zip -r galaxy-bypass-utility-${{ github.ref_name }}.zip galaxy-bypass-utility-release/
+        
+    - name: Generate Release Notes
+      id: release_notes
+      run: |
+        echo "RELEASE_NOTES<<EOF" >> $GITHUB_OUTPUT
+        echo "# Galaxy Bypass Utility ${{ github.ref_name }}" >> $GITHUB_OUTPUT
+        echo "" >> $GITHUB_OUTPUT
+        echo "## 📥 Download & Usage" >> $GITHUB_OUTPUT
+        echo "1. Download the \`galaxy-bypass-utility-${{ github.ref_name }}.zip\` file below" >> $GITHUB_OUTPUT
+        echo "2. Extract all files to a folder of your choice" >> $GITHUB_OUTPUT
+        echo "3. Run \`Battery Bypass Tool.bat\` as Administrator" >> $GITHUB_OUTPUT
+        echo "4. Follow the on-screen menu prompts" >> $GITHUB_OUTPUT
+        echo "" >> $GITHUB_OUTPUT
+        echo "## ✨ What's Included" >> $GITHUB_OUTPUT
+        echo "- **Battery Bypass Tool.bat** - Main interactive utility" >> $GITHUB_OUTPUT
+        echo "- **adb/** - Complete ADB Platform Tools (no separate download needed)" >> $GITHUB_OUTPUT
+        echo "- **Documentation** - README, setup guides, and security info" >> $GITHUB_OUTPUT
+        echo "" >> $GITHUB_OUTPUT
+        echo "## 📱 Compatibility" >> $GITHUB_OUTPUT
+        echo "- Modern Samsung Galaxy devices with GOS support" >> $GITHUB_OUTPUT
+        echo "- Windows 10/11" >> $GITHUB_OUTPUT
+        echo "- USB debugging enabled" >> $GITHUB_OUTPUT
+        echo "" >> $GITHUB_OUTPUT
+        echo "## ⚠️ Requirements" >> $GITHUB_OUTPUT
+        echo "- 20W+ USB-PD charger for Power Bypass feature" >> $GITHUB_OUTPUT
+        echo "- USB cable for device connection" >> $GITHUB_OUTPUT
+        echo "" >> $GITHUB_OUTPUT
+        echo "---" >> $GITHUB_OUTPUT
+        echo "*Download, extract, and run - no setup required!* 🚀" >> $GITHUB_OUTPUT
+        echo "EOF" >> $GITHUB_OUTPUT
+        
+    - name: Create GitHub Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: |
+          galaxy-bypass-utility-${{ github.ref_name }}.zip
+        name: Galaxy Bypass Utility ${{ github.ref_name }}
+        body: ${{ steps.release_notes.outputs.RELEASE_NOTES }}
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

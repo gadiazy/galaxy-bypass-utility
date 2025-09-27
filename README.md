@@ -1,19 +1,45 @@
 # Galaxy Bypass Utility 🚀
 
-A powerful Windows batch tool with an interactive menu to take control of your Samsung Galaxy's gaming performance by managing the Game Optimization Service (GOS) and enabling the Power Bypass feature.
+<div align="center">
+
+![Galaxy Bypass Utility](https://img.shields.io/badge/Galaxy%20Bypass-Utility-blue?style=for-the-badge&logo=android)
+![Version](https://img.shields.io/github/v/release/MNDL-27/galaxy-bypass-utility?style=for-the-badge)
+![Downloads](https://img.shields.io/github/downloads/MNDL-27/galaxy-bypass-utility/total?style=for-the-badge)
+![License](https://img.shields.io/github/license/MNDL-27/galaxy-bypass-utility?style=for-the-badge)
+
+**A powerful Windows batch tool with an interactive menu to take control of your Samsung Galaxy's gaming performance by managing the Game Optimization Service (GOS) and enabling the Power Bypass feature.**
+
+[📥 Download Latest Release](https://github.com/MNDL-27/galaxy-bypass-utility/releases/latest) • [📖 Documentation](#-setup--installation-guide) • [🐛 Report Issues](https://github.com/MNDL-27/galaxy-bypass-utility/issues)
+
+</div>
+
+---
 
 ## ✨ Features
 
-The Galaxy Bypass Utility provides an easy-to-use interactive menu with two main options:
+<table>
+<tr>
+<td width="50%">
 
-- **🚀 Enable Power Bypass & Disable GOS**: Unleash maximum performance for gaming sessions
-  - ✅ Enables system-wide Power Bypass
-  - ❌ Disables the Game Optimization Service (GOS)
-  - ❌ Disables Game Launcher & Game Tools
+### 🚀 **Enable Power Bypass & Disable GOS**
+- ✅ Enables system-wide Power Bypass
+- ❌ Disables the Game Optimization Service (GOS)
+- ❌ Disables Game Launcher & Game Tools
+- 🎯 **Result**: Maximum gaming performance
 
-- **🔄 Disable Power Bypass & Restore Defaults**: Return your device to factory settings  
-  - ❌ Disables Power Bypass
-  - ✅ Re-enables GOS, Game Launcher, & Game Tools
+</td>
+<td width="50%">
+
+### 🔄 **Disable Power Bypass & Restore Defaults**
+- ❌ Disables Power Bypass
+- ✅ Re-enables GOS, Game Launcher, & Game Tools
+- 🔙 **Result**: Factory default settings
+
+</td>
+</tr>
+</table>
+
+> **📸 Screenshots coming soon!** *We're working on adding visual demonstrations of the tool interface.*
 
 ## 🤔 Understanding the Key Concepts
 
@@ -132,10 +158,129 @@ You can always revert to default settings by:
 - Running the tool again and selecting **Option 2** (Disable Power Bypass & Restore Defaults)
 - Or manually through your device's Game Launcher settings
 
+## ❓ Frequently Asked Questions (FAQ)
+
+<details>
+<summary><strong>🔋 Does Power Bypass work with wireless charging?</strong></summary>
+
+No, Power Bypass only works with **wired USB-PD charging (20W+)**. Wireless charging will not activate the Power Bypass feature.
+</details>
+
+<details>
+<summary><strong>📱 Which Samsung devices are supported?</strong></summary>
+
+Most modern Samsung Galaxy devices with GOS (Game Optimization Service) support:
+- Galaxy S series (S20 and newer)  
+- Galaxy Note series (Note 20 and newer)
+- Galaxy Z series (Fold/Flip with GOS)
+- Some Galaxy A series (with GOS)
+
+Check if your device has Game Launcher in settings to confirm GOS support.
+</details>
+
+<details>
+<summary><strong>🔥 Will disabling GOS make my phone overheat?</strong></summary>
+
+Potentially yes. GOS exists to prevent overheating by limiting performance. When disabled:
+- Monitor your device temperature closely
+- Take breaks during long gaming sessions
+- Use Power Bypass (with 20W+ charger) to reduce heat
+- Stop gaming if the device gets too hot
+</details>
+
+<details>
+<summary><strong>🔌 My charger is 25W but Power Bypass isn't working. Why?</strong></summary>
+
+Check these requirements:
+- Must be **USB-PD (Power Delivery) compatible**
+- Cable must support the full wattage  
+- Some chargers need specific cables (e.g., USB-C to USB-C)
+- Try a different USB-C cable
+- Check if your charger supports Samsung's fast charging protocols
+</details>
+
+<details>
+<summary><strong>⚠️ Is this safe? Will it void my warranty?</strong></summary>
+
+The tool is relatively safe because:
+- ✅ Uses official ADB commands (no root)
+- ✅ All changes are reversible
+- ✅ No system files are modified
+- ✅ Open source and transparent
+
+**Warranty**: Technically, any modification could affect warranty, but these are software settings changes that can be completely reversed.
+</details>
+
+<details>
+<summary><strong>🎮 Which games benefit most from this?</strong></summary>
+
+High-performance games that are typically throttled:
+- **Battle Royales**: PUBG Mobile, Fortnite, Call of Duty Mobile
+- **Racing Games**: Asphalt 9, Real Racing 3
+- **Graphics-Intensive**: Genshin Impact, Honkai Impact
+- **Emulators**: GameCube, PS2, etc.
+
+Casual games may not show noticeable improvements.
+</details>
+
+<details>
+<summary><strong>💻 Can I run this on Mac or Linux?</strong></summary>
+
+Currently **Windows only**. The batch script (.bat) is Windows-specific. However:
+- The ADB commands work on any platform
+- Someone could port this to shell scripts for Mac/Linux
+- You can run the ADB commands manually on any OS
+</details>
+
+<details>
+<summary><strong>🔄 How do I completely reset everything?</strong></summary>
+
+To fully reset:
+1. Run the tool and select **Option 2** (Restore Defaults)
+2. Restart your phone
+3. Alternatively, go to **Settings > Apps > Game Launcher > Storage > Clear Data**
+
+This will restore all game-related settings to factory defaults.
+</details>
+
 ## ⚠️ Disclaimer
 
 Galaxy Bypass Utility uses Android's official developer tools (ADB) to change system settings. While the commands are safe and reversible, proceed with caution. The creator of this utility is not responsible for any issues that may arise from its use.
 
 ---
 
-*Use these scripts responsibly and monitor your device's temperature during extended gaming sessions.*
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on:
+- 🐛 Reporting bugs  
+- 💡 Suggesting features
+- 🔧 Code contributions
+- 📚 Documentation improvements
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## ⭐ Support the Project
+
+If Galaxy Bypass Utility helped improve your gaming experience:
+- ⭐ **Star this repository** to show support
+- 🐛 **Report issues** to help improve the tool  
+- 🤝 **Contribute** code or documentation
+- 📢 **Share** with other Samsung Galaxy users
+
+## 📞 Connect
+
+- 🔗 **Repository**: [galaxy-bypass-utility](https://github.com/MNDL-27/galaxy-bypass-utility)
+- 🐛 **Issues**: [Report Problems](https://github.com/MNDL-27/galaxy-bypass-utility/issues)
+- 📥 **Releases**: [Download Latest](https://github.com/MNDL-27/galaxy-bypass-utility/releases)
+
+---
+
+<div align="center">
+
+**Made with ❤️ for the Samsung Galaxy gaming community**
+
+*Use responsibly and monitor your device's temperature during extended gaming sessions.*
+
+</div>
