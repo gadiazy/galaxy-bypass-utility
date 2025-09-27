@@ -9,9 +9,23 @@
 
 **A powerful Windows batch tool with an interactive menu to take control of your Samsung Galaxy's gaming performance by managing the Game Optimization Service (GOS) and enabling the Power Bypass feature.**
 
-[📥 Download Latest Release](https://github.com/MNDL-27/galaxy-bypass-utility/releases/latest) • [📖 Documentation](#-setup--installation-guide) • [🐛 Report Issues](https://github.com/MNDL-27/galaxy-bypass-utility/issues)
+[📥 Download Latest Release](https://github.com/MNDL-27/galaxy-bypass-utility/releases/latest) • [📖 Quick Start](#setup--installation-guide) • [🐛 Report Issues](https://github.com/MNDL-27/galaxy-bypass-utility/issues)
 
 </div>
+
+## 📋 Table of Contents
+
+- [✨ Features](#-features)
+- [🤔 Key Concepts](#-understanding-the-key-concepts)
+- [🛠️ Prerequisites](#️-prerequisites)  
+- [⚙️ Setup & Installation](#️-setup--installation-guide)
+- [🚀 Usage](#-usage)
+- [📋 What The Tool Does](#-what-the-tool-does)
+- [📁 Repository Structure](#-repository-structure)
+- [🔍 Troubleshooting](#-troubleshooting)
+- [❓ FAQ](#-frequently-asked-questions-faq)
+- [🤝 Contributing](#-contributing)
+- [📞 Connect](#-connect)
 
 ---
 
