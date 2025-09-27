@@ -271,6 +271,7 @@ If Galaxy Bypass Utility helped improve your gaming experience:
 
 ## 📞 Connect
 
+- 🌐 **Website**: [protik.eu.org](https://protik.eu.org)
 - 🔗 **Repository**: [galaxy-bypass-utility](https://github.com/MNDL-27/galaxy-bypass-utility)
 - 🐛 **Issues**: [Report Problems](https://github.com/MNDL-27/galaxy-bypass-utility/issues)
 - 📥 **Releases**: [Download Latest](https://github.com/MNDL-27/galaxy-bypass-utility/releases)
@@ -281,6 +282,6 @@ If Galaxy Bypass Utility helped improve your gaming experience:
 
 **Made with ❤️ for the Samsung Galaxy gaming community**
 
-*Use responsibly and monitor your device's temperature during extended gaming sessions.*
+*Visit [protik.eu.org](https://protik.eu.org) • Use responsibly and monitor your device's temperature during extended gaming sessions.*
 
 </div>

@@ -91,6 +91,7 @@ galaxy-bypass-utility/
 
 ## 🔗 Links
 
+- **Website**: [protik.eu.org](https://protik.eu.org)
 - **Repository**: https://github.com/MNDL-27/galaxy-bypass-utility
 - **Issues**: https://github.com/MNDL-27/galaxy-bypass-utility/issues
 - **Documentation**: [README.md](https://github.com/MNDL-27/galaxy-bypass-utility/blob/main/README.md)

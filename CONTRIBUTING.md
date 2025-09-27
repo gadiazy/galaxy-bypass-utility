@@ -101,6 +101,7 @@ Contributors will be acknowledged in:
 
 ## 📞 Contact
 
+- **Website**: [protik.eu.org](https://protik.eu.org)
 - **Issues**: Use GitHub issue templates
 - **Discussions**: GitHub Discussions (if enabled)
 - **Project**: Created and maintained by [@MNDL-27](https://github.com/MNDL-27)
