@@ -111,6 +111,7 @@
 ## ⚠️ Important Notes
 
 - **🌡️ Monitor temperature** - GOS prevents overheating, so watch device heat levels
+- **❄️ Using a good mobile cooler is recommended** - Especially during extended gaming sessions
 - **🔋 Power Bypass requires** 20W+ USB-PD charger when connected  
 - **🔄 Fully reversible** - all changes can be undone through the tool
 - **📱 S-series focus** - primarily designed for Galaxy S, Note, and Z series
