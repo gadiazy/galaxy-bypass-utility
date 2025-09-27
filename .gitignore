@@ -13,3 +13,6 @@ $RECYCLE.BIN/
 # Temporary files
 *.tmp
 *.temp
+
+# ADB Platform Tools (uncomment to exclude ADB files if desired)
+# adb/

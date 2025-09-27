@@ -27,15 +27,16 @@ An official feature that allows the phone to draw power directly from a connecte
 
 Before you begin, ensure you have the following:
 
-- **ADB Platform Tools**: Download the latest version from Google's official site
-- **A Samsung Galaxy Device**: These scripts are designed for modern Samsung phones
-- **A USB Cable**: To connect your phone to your PC
+- **✅ ADB Platform Tools**: **INCLUDED!** No separate download needed
+- **📱 A Samsung Galaxy Device**: These scripts are designed for modern Samsung phones  
+- **🔌 A USB Cable**: To connect your phone to your PC
 
 ## ⚙️ Setup & Installation Guide
 
-1. **Install ADB**:
-   - Download and extract the Platform Tools zip file to an easily accessible location (e.g., `C:\platform-tools`)
-   - For the scripts to work from any folder, add this location to your Windows Path environment variable
+1. **Download & Extract**: 
+   - Download the latest release from GitHub
+   - Extract all files to a folder of your choice
+   - **ADB is already included** - no additional setup required!
 
 2. **Enable USB Debugging on Your Phone**:
    - Navigate to **Settings** > **About phone** > **Software information**
@@ -50,7 +51,7 @@ Before you begin, ensure you have the following:
 
 ## 🚀 Usage
 
-With setup complete, simply:
+**It's now plug-and-play!** Simply:
 
 1. **Double-click `Battery Bypass Tool.bat`** to launch the interactive menu
 2. **Choose your option**:
@@ -60,9 +61,11 @@ With setup complete, simply:
 3. **Follow the on-screen prompts** - the tool will wait for your device and guide you through each step
 
 The tool includes:
+- ✅ **Built-in ADB** - no separate installation needed
 - ✅ **ADB device detection** - automatically waits for your phone to be connected
 - ✅ **Progress indicators** - shows you exactly what's happening at each step  
 - ✅ **Interactive menu** - easy navigation between options
+- ✅ **Error handling** - clear messages if something goes wrong
 - ✅ **Safe operation** - all changes are completely reversible
 
 ## 📋 What The Tool Does
@@ -85,6 +88,21 @@ The tool includes:
 - `adb shell pm disable-user <package_name>`: Disables a specific app for the current user (non-root method)
 - `adb shell pm enable <package_name>`: Re-enables a disabled app
 
+## � Repository Structure
+
+```
+galaxy-bypass-utility/
+├── Battery Bypass Tool.bat    # Main interactive tool
+├── README.md                  # This documentation
+├── LICENSE                    # MIT License
+├── ADB_SETUP.md              # ADB setup instructions (for developers)
+└── adb/                      # ADB Platform Tools (included)
+    ├── adb.exe              # Main ADB executable
+    ├── AdbWinApi.dll        # Required Windows API DLL
+    ├── AdbWinUsbApi.dll     # Required Windows USB API DLL
+    └── fastboot.exe         # Fastboot tool (bonus)
+```
+
 ## 📱 Compatibility
 
 These scripts are designed for modern Samsung Galaxy devices that support:
@@ -102,10 +120,11 @@ These scripts are designed for modern Samsung Galaxy devices that support:
 
 ## 🔍 Troubleshooting
 
-- **"adb is not recognized"**: Make sure ADB is installed and added to your system PATH
+- **"ADB files not found"**: Make sure you extracted all files including the `adb` folder
 - **"device unauthorized"**: Check your phone for the USB debugging authorization prompt
-- **"no devices found"**: Ensure USB debugging is enabled and the device is properly connected
-- **Scripts don't work**: Try running Command Prompt as Administrator
+- **"no devices found"**: Ensure USB debugging is enabled and the device is properly connected  
+- **Scripts don't work**: Try running as Administrator or check your USB cable
+- **Connection timeout**: Try a different USB port or cable
 
 ## 🔄 Reverting Changes
 

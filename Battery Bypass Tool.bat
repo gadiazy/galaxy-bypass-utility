@@ -1,6 +1,25 @@
 @echo off
 cls
-title Samsung Power Bypass Tool
+title Samsung Galaxy Power Bypass Tool
+
+REM Set up local ADB path
+set "ADB_PATH=%~dp0adb"
+set "PATH=%ADB_PATH%;%PATH%"
+
+REM Check if local ADB exists
+if not exist "%ADB_PATH%\adb.exe" (
+    echo.
+    echo  ========================================================
+    echo  ^|                    ERROR                             ^|
+    echo  ========================================================
+    echo.
+    echo  ADB files not found in the 'adb' folder.
+    echo  Please make sure the ADB platform tools are included
+    echo  in the 'adb' subfolder of this tool.
+    echo.
+    pause
+    exit /b 1
+)
 
 :menu
 cls
@@ -8,7 +27,7 @@ echo.
 echo  ========================================================
 echo  ^|                                                      ^|
 echo  ^|             SAMSUNG GALAXY POWER BYPASS TOOL         ^|
-echo  ^|                                                      ^|
+echo  ^|                        v2.0                          ^|
 echo  ========================================================
 echo.
 echo  Please choose an option:
@@ -45,25 +64,30 @@ pause
 cls
 echo.
 echo  Waiting for ADB device...
-adb wait-for-device
+"%ADB_PATH%\adb.exe" wait-for-device
+if errorlevel 1 (
+    echo  ERROR: Could not connect to device. Please check USB connection and debugging.
+    pause
+    goto menu
+)
 echo  Device detected! Starting optimization process...
 echo.
 timeout /t 2 >nul
 echo  [1/4] Enabling Power Bypass...
-adb shell settings put system pass_through 1
-echo      > DONE
+"%ADB_PATH%\adb.exe" shell settings put system pass_through 1
+echo      ^> DONE
 echo.
 echo  [2/4] Disabling Game Tools...
-adb shell pm disable-user com.samsung.android.game.gametools
-echo      > DONE
+"%ADB_PATH%\adb.exe" shell pm disable-user com.samsung.android.game.gametools
+echo      ^> DONE
 echo.
 echo  [3/4] Disabling Game Launcher...
-adb shell pm disable-user com.samsung.android.game.gamehome
-echo      > DONE
+"%ADB_PATH%\adb.exe" shell pm disable-user com.samsung.android.game.gamehome
+echo      ^> DONE
 echo.
 echo  [4/4] Disabling Game Optimization Service (GOS)...
-adb shell pm disable-user com.samsung.android.game.gos
-echo      > DONE
+"%ADB_PATH%\adb.exe" shell pm disable-user com.samsung.android.game.gos
+echo      ^> DONE
 echo.
 echo  ========================================================
 echo  ^|         PROCESS COMPLETE - POWER BYPASS ENABLED      ^|
@@ -88,25 +112,30 @@ pause
 cls
 echo.
 echo  Waiting for ADB device...
-adb wait-for-device
+"%ADB_PATH%\adb.exe" wait-for-device
+if errorlevel 1 (
+    echo  ERROR: Could not connect to device. Please check USB connection and debugging.
+    pause
+    goto menu
+)
 echo  Device detected! Starting restoration process...
 echo.
 timeout /t 2 >nul
 echo  [1/4] Disabling Power Bypass...
-adb shell settings put system pass_through 0
-echo      > DONE
+"%ADB_PATH%\adb.exe" shell settings put system pass_through 0
+echo      ^> DONE
 echo.
 echo  [2/4] Enabling Game Tools...
-adb shell pm enable com.samsung.android.game.gametools
-echo      > DONE
+"%ADB_PATH%\adb.exe" shell pm enable com.samsung.android.game.gametools
+echo      ^> DONE
 echo.
 echo  [3/4] Enabling Game Launcher...
-adb shell pm enable com.samsung.android.game.gamehome
-echo      > DONE
+"%ADB_PATH%\adb.exe" shell pm enable com.samsung.android.game.gamehome
+echo      ^> DONE
 echo.
 echo  [4/4] Enabling Game Optimization Service (GOS)...
-adb shell pm enable com.samsung.android.game.gos
-echo      > DONE
+"%ADB_PATH%\adb.exe" shell pm enable com.samsung.android.game.gos
+echo      ^> DONE
 echo.
 echo  ========================================================
 echo  ^|      PROCESS COMPLETE - DEVICE RESTORED TO NORMAL    ^|
