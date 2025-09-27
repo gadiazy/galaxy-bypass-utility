@@ -85,6 +85,33 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
+## 📊 Repository Stats
+
+<div align="center">
+
+<!-- Repository Stats Badges -->
+![GitHub Stars](https://img.shields.io/github/stars/MNDL-27/galaxy-bypass-utility?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/MNDL-27/galaxy-bypass-utility?style=social)
+![GitHub Watchers](https://img.shields.io/github/watchers/MNDL-27/galaxy-bypass-utility?style=social)
+
+<!-- Download and Activity Stats -->
+![GitHub Downloads](https://img.shields.io/github/downloads/MNDL-27/galaxy-bypass-utility/total?style=flat&logo=github&color=green)
+![GitHub Release Downloads](https://img.shields.io/github/downloads/MNDL-27/galaxy-bypass-utility/latest/total?style=flat&logo=github&color=blue)
+![GitHub Issues](https://img.shields.io/github/issues/MNDL-27/galaxy-bypass-utility?style=flat&logo=github)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/MNDL-27/galaxy-bypass-utility?style=flat&logo=github)
+
+<!-- Repository Health -->
+![GitHub Last Commit](https://img.shields.io/github/last-commit/MNDL-27/galaxy-bypass-utility?style=flat&logo=git)
+![GitHub Contributors](https://img.shields.io/github/contributors/MNDL-27/galaxy-bypass-utility?style=flat&logo=github)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/MNDL-27/galaxy-bypass-utility?style=flat&logo=github)
+
+<!-- Visit Counter -->
+![Profile Views](https://komarev.com/ghpvc/?username=MNDL-27&repo=galaxy-bypass-utility&color=brightgreen&style=flat&label=Repository+Views)
+
+</div>
+
+---
+
 <div align="center">
 
 **Made with ❤️ for the Samsung Galaxy gaming community**
